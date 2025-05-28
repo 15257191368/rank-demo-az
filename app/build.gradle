@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdk 28
+    compileSdk 32
     defaultConfig {
         applicationId "com.rockchip.gpadc.yolodemo"
         minSdkVersion 25
@@ -32,8 +32,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     // https://developer.android.com/studio/releases/gradle-plugin#groovy
