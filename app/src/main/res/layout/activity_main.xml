@@ -31,14 +31,15 @@
             android:textColor="@color/title_text"
             android:textSize="30sp"
             android:textStyle="bold" />
-
+<!--
         <ImageView
             android:layout_width="201dp"
             android:layout_height="48dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="20dp"
-            android:src="@drawable/img_logo" />
+    android:src="@drawable/img_logo" />
+-->
     </RelativeLayout>
 
     <LinearLayout
